@@ -3,17 +3,19 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "<NAME>"
-version = "0.1.0"
+name = "lcz"
+version = "0.1.1"
 authors = [
     {name="Marcel Claramunt", email="marcel@moveread.com"}
 ]
-description = "<DESCRIPTION>"
+description = "Simplified Leela Chess Zero (aka lc0 aka lcz) with Python"
 dependencies = [
-    
+    "meson==1.2.2",
+    "lczero-bindings",
+    "ramda"
 ]
 requires-python = ">=3.10"
 readme = {file="README.md", content-type="text/markdown"}
 
 [project.urls]
-repo = "<GIT_REPO_URL>"
+repo = "https://github.com/moveread/lc0"
