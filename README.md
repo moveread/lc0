@@ -1,12 +1,12 @@
-# LC0
+# LCZ
 
-> Simplified LC0 with Python
+> Simplified Leela Chess Zero with Python
 
 Provides a simple interface around the original [LCZero python bindings](https://github.com/LeelaChessZero/lc0)
 
 ## Usage
 
-````python
+```python
 import lcz
 
 lcz.eval(fens=[
@@ -26,3 +26,7 @@ lcz.eval(fens=[
 #   }]
 
 ```
+
+## Heads up
+
+Expect it to take ages to build, as the whole C++ lib gets compiled. You can use `pip install -v` to check progress
